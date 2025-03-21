@@ -80,6 +80,10 @@
     align-items: center;
 }
 
+#main-canvas{
+    background-color: black;
+}
+
 
 .foot-container{
     border: 2px solid blue;

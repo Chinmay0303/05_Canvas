@@ -55,10 +55,36 @@ function clickEvent(event){
     if(event.target.className == 'button over'){
         log(event.target);
         mainContainer.appendChild(canvasDiv);
+
+        let scriptElement1 = document.createElement('script');
+
+        if(event.target.id == 'button-1'){
+                log(event.target.id);
+                scriptElement1.src = './sketch_js/sketch1.js';
+        }
+        else if(event.target.id == 'button-2'){
+                log(event.target.id);
+                scriptElement1.src = './sketch_js/sketch2.js';
+        }
+        else if(event.target.id == 'button-3'){
+                log(event.target.id);
+                scriptElement1.src = './sketch_js/sketch3.js';
+        }
+        else if(event.target.id == 'button-4'){
+                log(event.target.id);
+                scriptElement1.src = './sketch_js/sketch4.js';
+        }
+        else if(event.target.id == 'button-5'){
+                log(event.target.id);
+                scriptElement1.src = './sketch_js/sketch5.js';
+        }
+        document.body.appendChild(scriptElement1);
+
     }
     else if(event.target.className == 'cross-button over'){
         log(event.target);
         event.target.classList.remove('over');
         mainContainer.removeChild(canvasDiv);
+        location.reload();
     }
 }
