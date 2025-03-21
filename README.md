@@ -2,8 +2,14 @@
 
 Simple Visualization projects using Canvas
 
-Random Walker: Tracing path of a single circle moving randomly.
-Multiple Walkers: Multiple circles moving randomly.
-Snow Fall: Snow Fall with trailing effect and rising level.
-The Void: Growing void engulfs multiple circles.
-Snake Race: Snakes of different sizes compete to win a race.
+Simple Visualization projects using Canvas
+
+1. Random Walker: Tracing path of a single circle moving randomly.
+
+2. Multiple Walkers: Multiple circles moving randomly.
+
+3. Snow Fall: Snow Fall with trailing effect and rising level.
+
+4. The Void: Growing void engulfs multiple circles.
+
+5. Snake Race: Snakes of different sizes compete to win a race.
