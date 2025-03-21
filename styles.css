@@ -1,0 +1,64 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.body-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.head-container{
+    border: 2px solid red;
+    font-size: 48px;
+}
+
+.header,
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 1.2em;
+}
+
+.main-container{
+    flex-grow: 1;
+
+    border: 2px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table{
+    border: 2px solid gold;
+
+    width: 60%;
+    height: 80%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects{
+    border: 2px solid salmon;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.projects button{
+    background-color: white;
+    border: 2px solid gray;
+    font-size: 24px;
+}
+
+
+.foot-container{
+    border: 2px solid blue;
+    font-size: 16px;
+}
+
